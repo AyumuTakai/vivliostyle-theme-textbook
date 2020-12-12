@@ -29,11 +29,11 @@ $right-background-image: url(../bg_right.svg);
 // 本文
 //
 // 本文文字サイズ(pt)単位を付けずに数値のみ指定
-$fsize: 11;
-$font-size: $fsize * 1.3333px;
+$font_size: 11;
+
 // 行の高さ(pt)
-$lheight: 20;
-$line-height: floor($lheight * 1.3333px); // Chrome,Safariでは小数点以下切り捨て
+$line_height: 20;
+
 // 段落間 本文の文字($font-size)に対する倍率
 // 本文文字サイズに応じて微調整が必要
 $paragraph-spacing: 0;
@@ -53,3 +53,11 @@ $code_font:"Hackgen";
 
 // ページレイアウト確認用枠線 0以外で表示
 $layoutcheck: 0;
+
+
+// vivliostyle.config.jsで設定したscss_varsを以下に埋め込み
+// scss_vars:
+
+// scss_vars:の後で計算
+$font-size: $font_size * 1.3333px;
+$line-height: floor($line_height * 1.3333px); // Chrome,Safariでは小数点以下切り捨て
