@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "variavles";
+@use "variables" as *;
 
 img {
   max-width: 80%;

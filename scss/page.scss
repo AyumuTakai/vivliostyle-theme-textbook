@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import "variavles";
+
+@use 'variables' as *;
 
 :root {
   font-size: $font-size;
@@ -67,11 +68,6 @@ p {
 /**
 * ページ定義
 **/
-
-
-
-// 側注領域
-$sidenote-area: 30mm;
 
 // ヘッダ
 // マージンで調整ではなくパディングで調整する

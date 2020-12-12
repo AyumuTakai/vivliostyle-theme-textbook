@@ -1,7 +1,7 @@
 {
   "name": "vivliostyle-theme-textbook",
   "author": "Hackwork Systems <publish@hackwork.jp>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "keywords": [
     "vivliostyle",
     "vivliostyle-theme"
@@ -25,7 +25,13 @@
       "replace": "replace.js"
     }
   },
+  "scripts": {
+    "test": "sass scss/sys.scss:style.css"
+  },
   "dependencies": {
     "plantuml-encoder": "^1.4.0"
+  },
+  "devDependencies": {
+    "sass": "^1.30.0"
   }
 }
