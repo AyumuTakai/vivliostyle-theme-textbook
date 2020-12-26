@@ -264,7 +264,7 @@ $footer-padding-left: 2mm;
     // ページ番号
     content: counter(page);
     color: black;
-    padding: $footer-padding-top $footer-padding-right $footer-padding-bottom $footer-padding-left;
+    padding: $footer-padding-top $footer-padding-right calc(${footer-padding-bottom} - 1em) $footer-padding-left;
   }
 }
 
@@ -287,6 +287,6 @@ $footer-padding-left: 2mm;
     // ページ番号
     content: counter(page);
     color: black;
-    padding: $footer-padding-top $footer-padding-right $footer-padding-bottom $footer-padding-left;
+    padding: $footer-padding-top $footer-padding-right calc(${footer-padding-bottom} - 1em) $footer-padding-left;
   }
 }
