@@ -1,7 +1,7 @@
 {
   "name": "vivliostyle-theme-textbook",
   "author": "Hackwork Systems <publish@hackwork.jp>",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "vivliostyle",
     "vivliostyle-theme"
@@ -22,7 +22,7 @@
         "PlantUML",
         "自家用"
       ],
-      "replace": "replace.js"
+      "scripts": "scripts.js"
     }
   },
   "scripts": {
