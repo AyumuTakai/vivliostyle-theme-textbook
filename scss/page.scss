@@ -8,8 +8,8 @@
 }
 
 p {
-  margin-block-start: -($line-height - $font-size) / 2; // 行上の余白の分ネガティブマージンで引き上げる
-  margin-block-end: ($line-height - $font-size) / 2;    // 引き上げた分を段落間に追加する
+  margin-block-start: calc(($line-height - $font-size) / -2); // 行上の余白の分ネガティブマージンで引き上げる
+  margin-block-end: calc(($line-height - $font-size) / 2);    // 引き上げた分を段落間に追加する
   break-inside: auto;
   break-after: auto;
   break-before: auto;
