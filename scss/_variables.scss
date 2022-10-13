@@ -9,6 +9,12 @@ $paper-width: 210mm !default;
 //
 // ページ設定
 //
+
+// ノンブル初期値
+$start-page: 10 !default;
+// 章初期値
+$start-chapter: 10 !default;
+
 // ページマージン
 // 以下のマージンを除いた領域がbody要素以下が表示される範囲
 // 天マージン

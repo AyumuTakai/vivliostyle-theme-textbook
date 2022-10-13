@@ -90,6 +90,11 @@ $footer-padding-right: 2mm;
 $footer-padding-bottom: 15mm;
 $footer-padding-left: 2mm;
 
+// 最初のドキュメントの最初のページのみノンブル,章カウンタ初期値の設定
+@page:first {
+  counter-reset: page $start-page - 1 section $start-chapter - 1 ;
+}
+
 @page {
   // sizeは無視される? vivliostyle.conf.jsの設定が優先. ver.3.0.0 で修正予定
   size: $paper-width $paper-height;
