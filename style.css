@@ -1,0 +1,914 @@
+@charset "UTF-8";
+:root {
+  font-size: 13.333px;
+  line-height: 26px;
+}
+
+p {
+  margin-block-start: -6.3335px;
+  margin-block-end: 6.3335px;
+  break-inside: auto;
+  break-after: auto;
+  break-before: auto;
+  orphans: 1;
+  widows: 1;
+}
+
+body > section {
+  min-height: 100%;
+  background-image: url('data:image/svg+xml;charset=utf8,<svg width="1333.3px" height="2600px" xmlns="http://www.w3.org/2000/svg" viewBox="0,0,1333.3px,2600px"><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="0px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="260px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="520px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="780px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1040px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1300px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1560px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="1820px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2080px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="0px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="133.33px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="266.66px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="399.99px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="533.32px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="666.65px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="799.98px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="933.31px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="1066.64px" stroke-width="10" stroke="rgb(0%,0%,100%)" /><rect fill-opacity="0" stroke-dasharray="30,30" id="svg_1" height="133.33px" width="133.33px" y="2340px" x="1199.97px" stroke-width="10" stroke="rgb(0%,0%,100%)" /></svg>');
+  background-size: 133.33px 260px;
+  background-repeat: repeat;
+}
+
+/**
+* ページ定義
+**/
+@page :first {
+  counter-reset: page 9 section 9;
+}
+@page {
+  size: 210mm 297mm;
+  margin-top: 20mm;
+  margin-bottom: 15mm;
+  @top-left-corner {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "top-left-corner";
+    color: red;
+    white-space: pre;
+  }
+  @top-left {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "top-left";
+    color: red;
+    white-space: pre;
+  }
+  @top-center {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "top-center";
+    color: red;
+    white-space: pre;
+  }
+  @top-right {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "top-right";
+    color: red;
+    white-space: pre;
+  }
+  @top-right-corner {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "top-right-corner";
+    color: red;
+    white-space: pre;
+  }
+  @right-top {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "right-top";
+    color: red;
+    white-space: pre;
+  }
+  @right-middle {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "right-middle";
+    color: red;
+    white-space: pre;
+  }
+  @right-bottom {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "right-bottom";
+    color: red;
+    white-space: pre;
+  }
+  @bottom-left-corner {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "bottom-left-corner";
+    color: red;
+    white-space: pre;
+  }
+  @bottom-left {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "bottom-left";
+    color: red;
+    white-space: pre;
+  }
+  @bottom-center {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "bottom-center\a$font-size: 13.333px pt / $line-height: 26px";
+    color: red;
+    white-space: pre;
+  }
+  @bottom-right {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "bottom-right";
+    color: red;
+    white-space: pre;
+  }
+  @bottom-right-corner {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "bottom-right-corner";
+    color: red;
+    white-space: pre;
+  }
+  @left-top {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "left-top";
+    color: red;
+    white-space: pre;
+  }
+  @left-middle {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "left-middle";
+    color: red;
+    white-space: pre;
+  }
+  @left-bottom {
+    font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+    font-size: 10px;
+    border: gray 1px dashed;
+    content: "left-bottom";
+    color: red;
+    white-space: pre;
+  }
+}
+@page :left {
+  font-family: "Neue Frutiger World", "Verdana", "Yakumono", "body", "Hiragino Sans", sans-serif;
+  margin-left: 18mm;
+  margin-right: 35mm;
+  padding-left: 30mm;
+  background: url(../bg_left.svg);
+  @top-left {
+    content: env(pub-title);
+    text-align: left;
+    color: black;
+    padding: 12mm 2mm 2mm 2mm;
+  }
+  @bottom-left {
+    content: counter(page);
+    color: black;
+    padding: 2mm 2mm 15mm 2mm;
+  }
+}
+@page :right {
+  margin-left: 35mm;
+  margin-right: 18mm;
+  padding-right: 30mm;
+  background: url(../bg_right.svg);
+  @top-right {
+    content: env(doc-title);
+    text-align: right;
+    color: black;
+    padding: 12mm 2mm 2mm 2mm;
+  }
+  @bottom-right {
+    content: counter(page);
+    color: black;
+    padding: 2mm 2mm 15mm 2mm;
+  }
+}
+h1, h2, h3 {
+  font-feature-settings: "palt", "calt";
+}
+
+p {
+  text-indent: 1em;
+  word-break: break-all;
+}
+
+blockquote {
+  margin: 1.5rem 0.5rem;
+  background-color: #ecf0f1;
+  padding: 0.5em 1em;
+  border-radius: 0.2rem;
+}
+blockquote :not(pre) > code {
+  padding: 0;
+  word-break: break-all;
+}
+
+ul, ol {
+  padding-inline-start: 1.5em;
+}
+
+code[class*=language-] {
+  color: black;
+  background: none;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  font-family: "Hackgen";
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+
+/* Code blocks */
+:not(pre) > code[class*=language-], pre[class*=language-] {
+  background-color: #f4f4f4;
+  border: solid 1px dimgray;
+}
+
+:not(pre) > code {
+  padding: 0.1rem 0.3rem !important;
+  background-color: #ecf0f1;
+}
+
+:not(pre) > code[class*=language-] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+  color: black;
+}
+
+code[class*=language-], pre[class*=language-] {
+  margin: 1.5em 0;
+  line-height: 1.2 !important;
+  letter-spacing: 0.03rem !important;
+  border-radius: 0.2rem !important;
+  text-shadow: none !important;
+}
+
+pre {
+  margin: 1.5rem 0;
+  box-decoration-break: clone;
+}
+
+pre[class*=language-] {
+  color: black;
+  background: #f8f8f8;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+  font-family: "Hackgen";
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+  border-radius: 0.3em;
+}
+
+figure {
+  margin: 1.5rem auto;
+  text-align: center;
+  position: relative;
+  padding-top: 0.5em;
+}
+figure pre[class*=language-] {
+  margin: 0;
+  background-color: #f8f8f8;
+}
+figure img {
+  max-width: 100%;
+  margin: 0.5rem auto;
+}
+figure figcaption {
+  page-break-after: avoid;
+  margin: 0.5rem auto;
+  width: 90%;
+  font-size: 90%;
+  break-inside: avoid;
+  position: absolute;
+  top: -0.6em;
+  left: 1em;
+  width: fit-content;
+  text-align: left;
+  margin: 0;
+  padding: 0 0.5em;
+  text-shadow: 2px 2px 1px #ffffff, -2px 2px 1px #ffffff, 2px -2px 1px #ffffff, -2px -2px 1px #ffffff, 2px 0px 1px #ffffff, 0px 2px 1px #ffffff, -2px 0px 1px #ffffff, 0px -2px 1px #ffffff;
+}
+figure img[src$=".png"], figure img[src$=".jpg"], figure img[src$=".jpeg"], figure img[src$=".gif"], figure img[src$=".webp"], figure img[src$=".svg"] {
+  image-resolution: 200dpi;
+}
+figure.fig {
+  counter-increment: fig;
+}
+figure.fig figcaption::before {
+  content: "Fig. " counter(fig) ": ";
+}
+
+figure.tbl {
+  counter-increment: tbl;
+}
+figure.tbl figcaption::before {
+  content: "Table " counter(tbl) ": ";
+}
+figure.plantuml img {
+  margin: 0;
+  padding: 0;
+  border: solid 1px black;
+  border-radius: 0.2em;
+  width: 100%;
+}
+figure.code {
+  font-family: "Hackgen";
+  text-align: left;
+}
+figure.code ol {
+  background-color: #f8f8f8;
+  display: block;
+  border: solid 1px dimgray;
+  list-style-type: none;
+  counter-reset: item;
+  border-radius: 0.2em;
+  line-height: 1.2em;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+  padding-left: 3.5em;
+}
+figure.code li {
+  font-feature-settings: "palt" 1;
+  font-kerning: none;
+  padding: 0.1em 0;
+  margin: 0;
+  line-height: 2em;
+  white-space: pre-wrap;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  list-style-position: outside;
+}
+figure.code li:before {
+  font-weight: 200;
+  counter-increment: item;
+  content: counter(item, decimal-leading-zero);
+  padding-right: 0.8em;
+  color: #333333;
+  margin-left: -3em;
+}
+
+.namespace {
+  opacity: 0.7;
+}
+
+.token.comment, .token.prolog, .token.doctype, .token.cdata {
+  /*color: slategray;*/
+  color: black;
+}
+.token.punctuation {
+  /*color: #f8f8f2;*/
+}
+.token.property, .token.tag, .token.constant, .token.symbol, .token.deleted {
+  /*color: #f92672;*/
+}
+.token.boolean, .token.number {
+  /*color: #ae81ff;*/
+}
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin, .token.inserted {
+  /*color: #a6e22e;*/
+}
+.token.operator, .token.entity, .token.url {
+  /*color: #f8f8f2;*/
+  color: black;
+}
+.token.variable {
+  /*color: #f8f8f2;*/
+  color: black;
+}
+.token.atrule, .token.attr-value, .token.function, .token.class-name {
+  /*color: #e6db74;*/
+}
+.token.keyword {
+  /*color: #66d9ef;*/
+}
+.token.regex {
+  /*color: #fd971f;*/
+}
+.token.important {
+  /*color: #fd971f;*/
+  font-weight: bold;
+}
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+.token.entity {
+  cursor: help;
+}
+
+.language-css .token.string, .style .token.string {
+  color: black;
+}
+
+:root {
+  font-family: "Hiragino Maru Gothic ProN";
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  display: table;
+  max-width: 100%;
+  margin: 1.5rem auto;
+  border-color: currentColor;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 0.25rem 1rem 0.25rem 0;
+  background-color: transparent;
+  border: 0;
+}
+table th:first-child, table td:first-child {
+  padding-left: 1rem;
+}
+table th {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+table tr {
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+}
+table tr:last-child {
+  border-bottom: 1px solid;
+}
+
+.page-break {
+  page-break-after: always !important;
+}
+
+body {
+  counter-reset: section subsection fig tbl footnote cite;
+}
+
+a[data-ref=sec], a[data-ref=subsec], a[data-ref=fig], a[data-ref=tbl], a[data-ref=cite] {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 0.15em;
+}
+a[data-ref=sec]::before {
+  content: "§" target-counter(attr(href), section);
+}
+a[data-ref=subsec]::before {
+  content: "§" target-counter(attr(href), section) "." target-counter(attr(href url), subsection);
+}
+a[data-ref=fig]::before {
+  content: "Fig. " target-counter(attr(href), fig);
+}
+a[data-ref=tbl]::before {
+  content: "Table " target-counter(attr(href), tbl);
+}
+a[data-ref=cite]::before {
+  content: "[" target-counter(attr(href), cite) "]";
+}
+
+section {
+  counter-increment: section;
+  counter-reset: subsection;
+}
+section article {
+  counter-increment: subsection;
+}
+
+.book {
+  counter-reset: chapter;
+}
+
+.chapter {
+  counter-increment: chapter;
+  counter-reset: section subsection;
+}
+
+.footnote {
+  counter-increment: footnote;
+}
+.footnote::footnote-call, .footnote::footnote-marker {
+  content: "[" counter(footnote) "]";
+}
+.footnote::footnote-call {
+  font-size: 80%;
+  margin: 0 0.3rem;
+}
+.footnote::footnote-marker {
+  margin-right: 0.2rem;
+}
+
+ol.cite-items {
+  padding-left: 2rem;
+  list-style: none;
+}
+ol.cite-items li {
+  counter-increment: cite;
+  position: relative;
+}
+ol.cite-items li::before {
+  content: "[" counter(cite) "] ";
+  position: absolute;
+  left: -2rem;
+}
+
+nav#toc, nav[role=doc-toc] {
+  break-before: page;
+  font-size: 120%;
+}
+nav#toc li a::after, nav[role=doc-toc] li a::after {
+  content: target-counter(attr(href), page);
+}
+nav#toc li a, nav[role=doc-toc] li a {
+  display: inline-flex;
+  width: 100%;
+  text-decoration: none;
+  color: currentColor;
+  align-items: baseline;
+}
+nav#toc li a::before, nav[role=doc-toc] li a::before {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  border-bottom: solid 1px;
+  content: "";
+  order: 1;
+  flex: auto;
+}
+nav#toc li a::after, nav[role=doc-toc] li a::after {
+  text-align: right;
+  content: target-counter(attr(href), page);
+  align-self: flex-end;
+  flex: none;
+  order: 2;
+}
+
+ul {
+  margin-block-end: 26px;
+}
+
+li {
+  line-height: 26px;
+}
+
+:root:lang(ja) a[data-ref=fig]::before {
+  content: "図" target-counter(attr(href), fig);
+}
+:root:lang(ja) a[data-ref=tbl]::before {
+  content: "表" target-counter(attr(href), fig);
+}
+:root:lang(ja) figure.fig figcaption::before {
+  content: "図" counter(fig) ": ";
+}
+:root:lang(ja) figure.tbl figcaption::before {
+  content: "表" counter(tbl) ": ";
+}
+
+@media screen {
+  body {
+    margin: auto 4rem;
+    padding-bottom: 4rem;
+  }
+  article {
+    margin: 0 auto;
+    max-width: 60rem;
+  }
+  section {
+    clear: both;
+  }
+  figure {
+    max-width: 50rem;
+  }
+  .footnote {
+    vertical-align: super;
+    margin: 0 0.1rem;
+    line-height: 0;
+  }
+  .footnote a {
+    word-break: break-all;
+  }
+  a[data-ref=sec]::before {
+    content: "§ XXX";
+  }
+  a[data-ref=subsec]::before {
+    content: "§ XXX.XXX";
+  }
+  a[data-ref=fig]::before {
+    content: "Fig. XXX";
+  }
+  :root:lang(ja) a[data-ref=fig]::before {
+    content: "図 XXX";
+  }
+  a[data-ref=tbl]::before {
+    content: "Table XXX";
+  }
+  :root:lang(ja) a[data-ref=tbl]::before {
+    content: "表 XXX";
+  }
+  a[data-ref=cite]::before {
+    content: "[XXX]";
+  }
+}
+@media print {
+  :root {
+    widows: 3;
+    orphans: 3;
+    hyphens: auto;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    break-after: avoid;
+  }
+  tr, th, td {
+    break-inside: avoid;
+  }
+  .footnote {
+    float: footnote;
+    text-align: left;
+  }
+}
+img {
+  max-width: 80%;
+  text-align: center;
+}
+
+div.sidenote {
+  top: 0px;
+  display: inline-block;
+  width: 30mm;
+  font-size: 80%;
+  line-height: 20.8px;
+  margin-top: -7em;
+  word-wrap: break-word;
+}
+div.sidenote.L {
+  margin-left: -130px;
+  float: left;
+}
+div.sidenote.R {
+  margin-right: -143px;
+  float: right;
+}
+
+span.hanging {
+  top: 0px;
+  display: block;
+  width: 3em;
+  height: 26px;
+  margin-top: 0.4em;
+  word-wrap: break-word;
+  margin-right: -3.2em;
+  padding-left: 0;
+  float: right;
+  text-indent: 0;
+  border: solid 1px red;
+}
+
+/* 見出し */
+h1 {
+  box-sizing: border-box;
+  height: 78px;
+  line-height: 78px;
+  position: relative;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 78px;
+  border: 2px solid #000;
+  margin-block-start: 0;
+  margin-block-end: 26px;
+  font-size: 31.2px;
+}
+h1:before {
+  position: absolute;
+  top: -150%;
+  left: -100px;
+  width: 180px;
+  height: 300%;
+  content: "";
+  -webkit-transform: rotate(25deg);
+  transform: rotate(25deg);
+  background: #000;
+}
+h1:after, h1 span {
+  font-size: 1.4em;
+  position: absolute;
+  z-index: 1;
+  top: -0.2em;
+  left: -0.3em;
+  display: block;
+  padding-top: 0.1em;
+  padding-left: 16px;
+  color: #fff;
+  content: counter(section, decimal-leading-zero);
+  height: 104px;
+}
+
+h2 {
+  box-sizing: border-box;
+  height: 65px;
+  line-height: 65px;
+  padding-left: 1em;
+  border-left: 5px solid #000;
+  background: #f4f4f4;
+  margin-block-start: 26px;
+  margin-block-end: 39px;
+}
+
+h3 {
+  box-sizing: border-box;
+  height: 52px;
+  line-height: 52px;
+  padding-left: 0.5em;
+  border-left: solid 3px black;
+  border-bottom: solid 1px black;
+  margin-block-start: 26px;
+  margin-block-end: 26px;
+}
+
+h4 {
+  box-sizing: border-box;
+  height: 26px;
+  padding: 0.1em 0.5em 0.1em;
+  border-left: solid 3px black;
+  margin-block-start: 26px;
+  margin-block-end: 26px;
+}
+
+div.character, span.character {
+  font-family: "Hackgen";
+}
+
+div.task {
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+  padding: 0;
+  margin: 1em 0;
+}
+
+.task h2 {
+  font-size: 1.6em;
+  line-height: 52px;
+  height: 52px;
+  margin-block-end: 26px;
+  padding: 0 0 0 1em;
+}
+.task h3 {
+  line-height: 39px;
+  height: 39px;
+  font-size: 1.1em;
+  margin-block-end: 13px;
+  padding: 0 0 0 1em;
+}
+.task img {
+  width: 80%;
+  display: inline;
+  text-align: center;
+}
+.task .full img {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.task figure.plantuml img {
+  width: auto;
+}
+
+div.comment {
+  display: none;
+}
+
+.check li {
+  list-style: none;
+  margin-bottom: 0.5em;
+}
+.check li::before {
+  content: "□";
+  padding-right: 1em;
+}
+
+.aphorism p {
+  font-size: 1.2em;
+  text-align: right;
+  padding-right: 1em;
+}
+.aphorism p:last-of-type {
+  font-size: 1em;
+}
+
+strong {
+  font-style: normal;
+}
+
+/* page,chapter設定用のp要素を非表示にする */
+body > p {
+  display: none;
+}
+
+div.parallel {
+  display: flex;
+}
+div.parallel img {
+  width: 100%;
+}
+div[class*=size-] {
+  width: 100%;
+}
+div[class*=size-] img {
+  margin: 0 auto;
+  display: block;
+}
+div.size-20 img {
+  max-width: 20%;
+}
+div.size-33 img {
+  max-width: 33.3%;
+}
+div.size-50 img {
+  max-width: 50%;
+}
+div.size-66 img {
+  max-width: 66.6%;
+}
+div.size-75 img {
+  max-width: 75%;
+}
+
+table td,
+table th {
+  border-right: solid 1px gray;
+  padding: 0.2em;
+}
+
+table td:first-child,
+table th:first-child {
+  border-left: solid 1px gray;
+  padding: 0.2em;
+}
+
+/* 補助的なスタイル */
+div.box {
+  width: 100%;
+  height: 156px;
+  border: solid 1px black;
+  border-radius: 7.8px;
+}
+
+/* Replace: @ */
+p.empty-paragraph {
+  height: 26px;
+}
+
+/*
+Theme Name: Textbook with side-note.
+Version: 1.0
+Author: Ayumu Takai (twitter: @AyumuTakai)
+Description: IT系テキスト向けテーマ(独自タグ,側注対応)
+Tags: textbook, side-note, A4, replace
+License: MIT license
+License URI: https://opensource.org/licenses/mit-license.php
+
+ページサイズ等のカスタマイズは"_valiables.scss"を編集してください
+*/
+
+/*# sourceMappingURL=style.css.map */
