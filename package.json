@@ -26,7 +26,7 @@
     }
   },
   "scripts": {
-    "test": "sass scss/sys.scss:style.css"
+    "build": "sass scss/sys.scss:style.css"
   },
   "dependencies": {
     "plantuml-encoder": "^1.4.0"
