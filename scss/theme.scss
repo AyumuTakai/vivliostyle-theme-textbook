@@ -153,8 +153,8 @@ div.task {
 
   img {
     width: 80%;
-    display: inline;
-    text-align: center;
+    display: block;
+    margin: 0 auto;
   }
 
   .full img {
@@ -165,6 +165,7 @@ div.task {
 
   figure.plantuml img {
     width: auto;
+    margin:0 auto;
   }
 }
 
